@@ -1,0 +1,43 @@
+/**
+* WooCommerce Bookings Dropdown Dates Styles
+*/
+
+/* Hide the original date picker and legend */
+.picker-hidden .picker,
+.picker-hidden legend {
+	display: none !important;
+}
+
+/* Style the dropdown chooser */
+.picker-chooser {
+	margin-bottom: 1em;
+}
+
+.picker-chooser select {
+	width: 100%;
+	padding: 0.5em;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	font-size: 1em;
+}
+
+/* No courses message styling */
+.no-courses {
+	font-size: 0.9em;
+	margin: 0.5em 0 0;
+	color: #d52c31;
+	line-height: 1.5;
+}
+
+/* Loading state */
+.picker-chooser select:disabled {
+	opacity: 0.6;
+	cursor: not-allowed;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+	.picker-chooser select {
+		font-size: 16px; /* Prevents zoom on iOS */
+	}
+}
