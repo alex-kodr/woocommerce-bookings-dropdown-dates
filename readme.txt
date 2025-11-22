@@ -75,5 +75,4 @@ For support, please contact SES Training Solutions.
 
 == Credits ==
 
-Original concept by previous development team (Alt design).
-Updated and modernised by Jam.
+Created by Kodr.
