@@ -1,5 +1,5 @@
 === WooCommerce Bookings Dropdown Dates ===
-Contributors: Kodr
+Contributors: alex-kodr
 Requires at least: 5.8
 Tested up to: 6.4
 Requires PHP: 7.4
@@ -51,7 +51,7 @@ A custom message is displayed informing users to contact you to arrange dates.
 
 == Changelog ==
 
-= 2.0.0 - 2025-11-05 =
+= 2.0.0 - 2025-11-22 =
 * Complete rewrite with modern PHP practices
 * Improved compatibility with latest WooCommerce Bookings
 * Better error handling and security
@@ -67,12 +67,16 @@ A custom message is displayed informing users to contact you to arrange dates.
 == Upgrade Notice ==
 
 = 2.0.0 =
-Major update with improved compatibility and security. Tested with latest WooCommerce Bookings.
+Major update with improved compatibility and security. Tested with latest WooCommerce Bookings (Version 2.2.9).
 
 == Support ==
 
-For support, please contact SES Training Solutions.
+For support, please [create an issue on GitHub](https://github.com/alex-kodr/woocommerce-bookings-dropdown-dates/issues).
+
+== Source Code ==
+
+This plugin is open source and available on GitHub: https://github.com/alex-kodr/woocommerce-bookings-dropdown-dates
 
 == Credits ==
 
-Created by Kodr.
+Created by [Kodr](https://kodr.io).

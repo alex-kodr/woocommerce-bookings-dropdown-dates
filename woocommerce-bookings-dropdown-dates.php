@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: WooCommerce Bookings Dropdown Dates
- * Plugin URI: https://sestrainingsolutions.co.uk
+ * Plugin URI: https://github.com/alex-kodr/woocommerce-bookings-dropdown-dates
  * Description: Displays WooCommerce Bookings dates as a dropdown with remaining places. Updated for modern WC Bookings.
  * Version: 2.0.0
  * Requires at least: 5.8
