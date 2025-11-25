@@ -23,7 +23,6 @@
 	transition: all 0.25s ease-in-out 0s;
 	margin: 0;
 	border: 1px solid hsl(26deg 8% 82%);
-	background: #ffffff;
 	border-radius: 8px;
 	-webkit-appearance: none;
 }
