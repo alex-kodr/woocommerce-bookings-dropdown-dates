@@ -14,11 +14,18 @@
 }
 
 .picker-chooser select {
+	font-family: 'Clan Pro', Helvetica, sans-serif;
+	font-size: 1rem;
+	padding: 0.75em;
 	width: 100%;
-	padding: 0.5em;
-	border: 1px solid #ddd;
-	border-radius: 4px;
-	font-size: 1em;
+	font-weight: 400;
+	appearance: none;
+	transition: all 0.25s ease-in-out 0s;
+	margin: 0;
+	border: 1px solid hsl(26deg 8% 82%);
+	background: #ffffff;
+	border-radius: 8px;
+	-webkit-appearance: none;
 }
 
 /* No courses message styling */
@@ -38,6 +45,6 @@
 /* Responsive adjustments */
 @media (max-width: 768px) {
 	.picker-chooser select {
-		font-size: 16px; /* Prevents zoom on iOS */
+		font-size: 1rem; /* Prevents zoom on iOS */
 	}
 }

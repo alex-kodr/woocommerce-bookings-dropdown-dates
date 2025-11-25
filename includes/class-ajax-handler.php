@@ -237,7 +237,7 @@ class WC_Bookings_Dropdown_Ajax_Handler {
 			$formatted_dates[ date( 'Y-m-d', $timestamp ) ] = $label;
 		}
 		
-		return array( '' => __( 'Please Select', 'wc-bookings-dropdown' ) ) + $formatted_dates;
+		return array( '' => __( 'Select a course date', 'wc-bookings-dropdown' ) ) + $formatted_dates;
 	}
 		
 	/**

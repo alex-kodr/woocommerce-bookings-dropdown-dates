@@ -68,14 +68,14 @@ class WC_Bookings_Dropdown_Dates {
 		
 		wp_enqueue_style(
 			'wc-bookings-dropdown',
-			WC_BOOKINGS_DROPDOWN_PLUGIN_URL . 'assets/css/dropdown.css',
+			WC_BOOKINGS_DROPDOWN_PLUGIN_URL . 'assets/css/dropdown.min.css',
 			array(),
 			WC_BOOKINGS_DROPDOWN_VERSION
 		);
 		
 		wp_enqueue_script(
 			'wc-bookings-dropdown',
-			WC_BOOKINGS_DROPDOWN_PLUGIN_URL . 'assets/js/dropdown.js',
+			WC_BOOKINGS_DROPDOWN_PLUGIN_URL . 'assets/js/dropdown.min.js',
 			array( 'jquery' ),
 			WC_BOOKINGS_DROPDOWN_VERSION,
 			true
@@ -284,7 +284,7 @@ class WC_Bookings_Dropdown_Dates {
 			$formatted_dates[ date( 'Y-m-d', $timestamp ) ] = $label;
 		}
 		
-		return array( '' => __( 'Please Select', 'wc-bookings-dropdown' ) ) + $formatted_dates;
+		return array( '' => __( 'Select a course date', 'wc-bookings-dropdown' ) ) + $formatted_dates;
 	}
 	
 	/**
