@@ -5,7 +5,8 @@
 /* Hide the original date picker and legend */
 .picker-hidden .picker,
 .picker-hidden legend,
-.wc-bookings-date-picker-date-fields {
+.wc-bookings-date-picker-date-fields,
+.wc-bookings-date-picker span.label {
 	display: none !important;
 }
 
