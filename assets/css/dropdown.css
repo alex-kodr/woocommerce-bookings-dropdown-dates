@@ -4,7 +4,8 @@
 
 /* Hide the original date picker and legend */
 .picker-hidden .picker,
-.picker-hidden legend {
+.picker-hidden legend,
+.wc-bookings-date-picker-date-fields {
 	display: none !important;
 }
 
